@@ -1,1 +1,92 @@
+h1 {
+	font-size: 28px;
+	font-family: sans-serif;
+	margin-top: 30px;
+	margin-bottom: 45px;
+	text-align: center;
+}
+#container {
+	width: auto;
+	margin-left: 20px;
+}
+.heading {
+	font-family: sans-serif;
+	font-size: 20px;
+	border: solid;
+	border-width: 4px;
+	margin-bottom: 4px;
+	text-align: right;
+	padding: 3px;
+}
+.content {
+	background-color: gray;
+	font-family: cursive;
+	font-size: 16px;
+	padding: 9px;
+	text-align: justify;
+}
+#Chicken {
+	background-color: pink;
+}
+#Beef {
+	background-color: red;
+}
+#Sushi {
+	background-color: yellow
+}
+@media screen and (max-width: 768px) {
+	#Chicken {
+		width: 100%;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 6px;
+	}
+	#Beef {
+		width: 100%;
+		margin: auto;
+		margin-top: 6px;
+		margin-bottom: 6px;
+	}
+	#Sushi {
+		width: 100%;
+		margin: auto;
+		margin-top: 6px;
+		margin-bottom: 10px;
+	}
+}
+@media screen and (min-width: 768px) and  (max-width: 992px) {
+	#Chicken {
+		float: left;
+		width: 47%;
+	}
+	#Beef {
+		float: right;
+		width: 47%;
+	}
+	#Sushi {
+		clear: both;
+		margin: auto;
+		margin-top: 15px;
+		width: 98%;
+	}
+}
+@media screen and (min-width: 992px) {
+	#Chicken {
+		float: left;
+		width: 31%;
+		margin-right: 5px;
+	}
+	#Beef {
+		float: left;
+		width: 31%;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	#Sushi {
+		float: left;
+		width: 31%;
+		margin-left: 5px;
+	}
+}
+
 
